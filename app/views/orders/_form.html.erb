@@ -23,6 +23,15 @@
     <%= f.label :order_date %><br>
     <%= f.date_select :order_date %>
   </div>
+  <div class="field">
+    <%= f.label :delivery_date %><br>
+    <%= f.date_select :delivery_date %>
+  </div>
+  <div class="field">
+    <%= f.label :payment_mode %><br>
+    <%= f.text_field :payment_mode %>
+  </div>
+  
   <div class="actions">
     <%= f.submit %>
   </div>
